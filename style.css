@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(139, 132, 240);
 }
 
 .container {
@@ -18,4 +19,29 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    background-image: url(images/jakescompetetion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgb(139, 132, 240);
+}
+
+h1 {
+    color: aquamarine;
+    opacity: .75;
+}
+
+.fa-birthday-cake {
+    color: aquamarine;
+    font-size: 40px;
+    opacity: .75;
+}
+.fa-birthday-cake:hover {
+    color: rgb(127, 241, 92);
+    cursor: pointer;
+}
+@media (max-width: 375px) {
+    body {
+        background-color: cornsilk;
+    }
 }
